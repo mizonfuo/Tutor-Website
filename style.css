@@ -705,6 +705,7 @@ section.learn {
     height: 50px;
     text-indent: 30px;
     border: 1px solid #ccc;
+    padding: 1.2rem;
 
     &:focus {
       outline: none;
@@ -718,7 +719,8 @@ section.learn {
     height: 200px;
     text-indent: 30px;
     border: 1px solid #ccc;
-    
+    padding: 1.2rem;
+
     &:focus {
       outline: none;
     }
@@ -726,8 +728,6 @@ section.learn {
 
   input::placeholder, textarea::placeholder {
     font-size: 1.1rem;
-    position: absolute;
-    top: 15px;
   }
 
   .btn {
