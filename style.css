@@ -719,7 +719,8 @@ section.learn {
     height: 200px;
     text-indent: 30px;
     border: 1px solid #ccc;
-    padding: 1.2rem;
+    padding: 1.2rem 0.9rem;
+    resize: none;
 
     &:focus {
       outline: none;
